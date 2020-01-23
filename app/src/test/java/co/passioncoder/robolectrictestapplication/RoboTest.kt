@@ -2,6 +2,8 @@ package co.passioncoder.robolectrictestapplication
 
 import android.content.Intent
 import android.widget.Button
+import android.widget.TextView
+import org.hamcrest.Matchers.equalTo
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
@@ -9,13 +11,6 @@ import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.Shadows
-import android.os.Bundle
-import android.content.ComponentName
-import org.robolectric.shadows.ShadowActivity
-import android.app.Activity
-import android.widget.TextView
-import org.robolectric.android.controller.ActivityController
-import org.hamcrest.Matchers.equalTo
 
 
 @RunWith(RobolectricTestRunner::class)
